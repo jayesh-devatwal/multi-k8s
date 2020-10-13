@@ -3,29 +3,29 @@
      "containerDefinitions": [
         {
             "name": "client",
-            "memory": 256,
-            "image": "jayesh0099/multi-client",
+            "memory": 128,
+            "image": "myusername/multi-client",
             "hostname": "client",
             "essential": false
         },
         {
             "name": "server",
-            "memory": 256,
-            "image": "jayesh0099/multi-server",
+            "memory": 128,
+            "image": "myusername/multi-server",
             "hostname": "api",
             "essential": false
         },
         {
             "name": "worker",
-            "memory": 256,
-            "image": "jayesh0099/multi-worker",
+            "memory": 128,
+            "image": "myusername/multi-worker",
             "hostname": "worker",
             "essential": false
         },
         {
             "name": "nginx",
-            "memory": 256,
-            "image": "jayesh0099/multi-nginx",
+            "memory": 128,
+            "image": "myusername/multi-nginx",
             "hostname": "nginx",
             "essential": true,
             "portMapping": [
